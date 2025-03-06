@@ -1,0 +1,83 @@
+﻿  Librarian.cpp
+  LibraryBook.cpp
+C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(23,39): error C2120: 'void' tüm türlerle geçersizdir
+  ('Librarian.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(34,19): error C2039: 'displayInfo': bir 'LibraryBook' üyesi değil
+  ('Librarian.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\LibraryBook.h(11,7):
+      'LibraryBook' bildirimine bakın
+  
+C:\Users\bayra\source\repos\Library\Library\Librarian.h(17,10): error C2664: 'void LibrarySystem::addBook(LibraryBook *)' : 1 bağımsız değişkeni 'LibraryBook' değerinden 'LibraryBook *' değerine dönüştürülemez
+  ('Librarian.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\Librarian.h(17,18):
+      Bu dönüştürmeyi gerçekleştirecek kullanıcı tanımlı dönüştürme işleci yok veya işleç çağrılamıyor
+      C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(46,10):
+      'LibrarySystem::addBook' bildirimine bakın
+      C:\Users\bayra\source\repos\Library\Library\Librarian.h(17,10):
+      '(LibraryBook)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+  LibrarySystem.cpp
+C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(23,39): error C2120: 'void' tüm türlerle geçersizdir
+  ('LibrarySystem.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(34,19): error C2039: 'displayInfo': bir 'LibraryBook' üyesi değil
+  ('LibrarySystem.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\LibraryBook.h(11,7):
+      'LibraryBook' bildirimine bakın
+  
+  LibraryUser.cpp
+  Main.cpp
+C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(23,39): error C2120: 'void' tüm türlerle geçersizdir
+  ('Main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(34,19): error C2039: 'displayInfo': bir 'LibraryBook' üyesi değil
+  ('Main.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\LibraryBook.h(11,7):
+      'LibraryBook' bildirimine bakın
+  
+C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(9,7): error C2011: 'LibrarySystem': 'class' türü yeniden tanımı
+  ('Main.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(9,7):
+      'LibrarySystem' bildirimine bakın
+  
+C:\Users\bayra\source\repos\Library\Library\Librarian.h(17,3): error C2027: tanımsız 'LibrarySystem' türü kullanıldı
+  ('Main.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(9,7):
+      'LibrarySystem' bildirimine bakın
+  
+C:\Users\bayra\source\repos\Library\Library\Librarian.h(21,3): error C2027: tanımsız 'LibrarySystem' türü kullanıldı
+  ('Main.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\LibrarySystem.h(9,7):
+      'LibrarySystem' bildirimine bakın
+  
+C:\Users\bayra\source\repos\Library\Library\Main.h(13,19): error C2079: 'library' tanımsız class 'LibrarySystem' kullanıyor
+  ('Main.cpp' kaynak dosyası derleniyor)
+  
+C:\Users\bayra\source\repos\Library\Library\Main.h(24,16): error C2664: 'void Librarian::addBook(LibrarySystem &,LibraryBook &)' : 1 bağımsız değişkeni 'int' değerinden 'LibrarySystem &' değerine dönüştürülemez
+  ('Main.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\Librarian.h(16,7):
+      'Librarian::addBook' bildirimine bakın
+      C:\Users\bayra\source\repos\Library\Library\Main.h(24,16):
+      '(int, LibraryBook *)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+C:\Users\bayra\source\repos\Library\Library\Main.h(25,16): error C2664: 'void Librarian::addBook(LibrarySystem &,LibraryBook &)' : 1 bağımsız değişkeni 'int' değerinden 'LibrarySystem &' değerine dönüştürülemez
+  ('Main.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\Librarian.h(16,7):
+      'Librarian::addBook' bildirimine bakın
+      C:\Users\bayra\source\repos\Library\Library\Main.h(25,16):
+      '(int, LibraryBook *)' bağımsız değişken listesi eşlenmeye çalışılırken
+  
+C:\Users\bayra\source\repos\Library\Library\Main.h(32,37): error C2039: 'getName': bir 'Member' üyesi değil
+  ('Main.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\Member.h(11,7):
+      'Member' bildirimine bakın
+  
+C:\Users\bayra\source\repos\Library\Library\Main.h(35,37): error C2039: 'getName': bir 'Member' üyesi değil
+  ('Main.cpp' kaynak dosyası derleniyor)
+      C:\Users\bayra\source\repos\Library\Library\Member.h(11,7):
+      'Member' bildirimine bakın
+  
+  Member.cpp
+  MEME.cpp
+  Kod Üretiliyor...
